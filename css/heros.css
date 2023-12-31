@@ -26,7 +26,6 @@
 }
 
 .textbox {
-    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,10 +84,6 @@
     color: #0066CC;
 }
 
-.third-container .item img {
-    padding: 0px 10px;
-}
-
 .third-container .description {
     color: #fafafa;
     padding: 10px 0px 5px 0px;
@@ -97,6 +92,14 @@
 .third-container .links {
     padding-top: 10px;
     color: #2997FF;
+}
+
+.third-container .item {
+    height: 73px;
+    width: 189px;
+    background-image: url(../images/hero_logo_apple_watch_series_9__eg5xcrxghuaa_largetall.png);
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width:1080px) {
@@ -119,6 +122,12 @@
         padding-top: 20px;
     }
 
+    .third-container .item{
+        height: 62px;
+        width: 163px;
+        background-image: url(../images/hero_logo_apple_watch_series_9__eg5xcrxghuaa_mediumtall.png);
+    }
+
     .item {
         font-size: 2.5rem;
     }
@@ -131,30 +140,33 @@
         font-size: 1rem;
     }
 
-    .third-container .item img {
-        width: 150px;
-    }
     
 }
 
 @media (max-width:780px) {
     
     .first-container {
-        height: calc(560px + 44px);
+        height: calc(500px + 44px);
         background-image: url(../images/hero_iphone15pro__i70z9oz3hj2i_small.jpg);
-        padding-top: calc(44px + 10px);
+        padding-top: calc(44px + 40px);
     }
 
     .second-container {
-        height: 560px;
+        height: 500px;
         background-image: url(../images/hero_iphone15_announce__uuemlcwczn6u_small.jpg);
-        padding-top: 10px;
+        padding-top: 40px;
     }
 
     .third-container {
-        height: 560px;
+        height: 500px;
         background-image: url(../images/hero_apple_watch_series_9_order__d0fi9mb84dci_small.jpg);
-        padding-top: 20px;
+        padding-top: 40px;
+    }
+
+    .third-container .item{
+        height: 42px;
+        width: 110px;
+        background-image: url(../images/hero_logo_apple_watch_series_9__eg5xcrxghuaa_small.png);
     }
 
 }

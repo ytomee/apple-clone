@@ -7,7 +7,7 @@
 }
 
 .grid .textbox {
-    padding-top: 8vh;
+    padding-top: 40px;
 }
 
 .grid .item {
@@ -28,8 +28,7 @@
 }
 
 .first {
-    height: 63vh;
-    max-height: 600px;
+    height: 580px;
     background-image: url(../images/promo_mbp__ek7p477bkp6q_large.jpg);
     background-size: cover;
     background-position: center;
@@ -40,8 +39,7 @@
 }
 
 .second {
-    height: 63vh;
-    max-height: 600px;
+    height: 580px;
     background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
     background-size: cover;
     background-position: center;
@@ -52,8 +50,7 @@
 }
 
 .third {
-    height: 63vh;
-    max-height: 600px;
+    height: 580px;
     background-image: url(../images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
     background-size: cover;
     background-position: center;
@@ -73,9 +70,16 @@
 }
 
 .fourth {
-    height: 63vh;
-    max-height: 600px;
+    height: 580px;
     background-image: url(../images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth .item {
+    height: 52px;
+    width: 137px;
+    background-image: url(../images/promo_logo_apple_watch_ultra2__ggg2x39rsvqu_large.png);
     background-size: cover;
     background-position: center;
 }
@@ -85,8 +89,7 @@
 }
 
 .fifth {
-    height: 63vh;
-    max-height: 600px;
+    height: 580px;
     background-image: url(../images/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
     background-size: cover;
     background-position: center;
@@ -98,19 +101,23 @@
 }
 
 .sixth {
-    height: 63vh;
-    max-height: 600px;
+    height: 580px;
     background-image: url(../images/promo_fitness__e3pj2kkbjoom_large.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.sixth .item img {
-    padding-bottom: 10px;
+.sixth .item {
+    height: 32px;
+    width: 173px;
+    background-image: url(../images/promo_logo_fitness__ghrl68mizmqi_large.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .sixth .description {
     text-align: center;
+    margin-top: 10px;
 }
 
 .sixth .links {
@@ -119,18 +126,120 @@
 
 @media (max-width:1080px) {
 
-    .grid {
-        grid-template-columns: 1fr;
-        grid-row-gap: 10px;
-        padding: 0;
+    .grid .item {
+        font-size: 2rem;
+        letter-spacing: 0.03em;
+        font-weight: bold;
+    }
+    
+    .grid .description {
+        font-size: 1.2em;
+        padding: 5px;
+    }
+    
+    .grid .links {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 10px;
     }
 
     .first {
-        background-image: url(../images/promo_mbp__ek7p477bkp6q_small.jpg);
+        height: 490px;
+        background-image: url(../images/promo_mbp__ek7p477bkp6q_medium.jpg);
+    }
+
+    .second {
+        height: 490px;
+        background-image: url(../images/promo_ipad__fioegapg12qi_medium.jpg);
+    }
+
+    .third {
+        height: 490px;
+        background-image: url(../images/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg);
+    }
+
+    .fourth {
+        height: 490px;
+        background-image: url(../images/promo_apple_watch_ultra2_order__dyxqj5ia98om_medium.jpg);
+    }
+
+    .fourth .item {
+        height: 42px;
+        width: 110px;
+        background-image: url(../images/promo_logo_apple_watch_ultra2__ggg2x39rsvqu_medium.png);
     }
 
     .fifth {
-        background-image: url(../images/promo_macbook_air_15_midnight__3zojl1nanrme_small.jpg);
+        height: 490px;
+        background-image: url(../images/promo_macbook_air_15_midnight__3zojl1nanrme_medium.jpg);
+    }
+
+    .sixth {
+        height: 490px;
+        background-image: url(../images/promo_fitness__e3pj2kkbjoom_medium.jpg);
+    }
+
+    .sixth .item {
+        height: 26px;
+        width: 142px;
+        background-image: url(../images/promo_logo_fitness__ghrl68mizmqi_medium.png);
     }
     
 }
+
+@media (max-width:850px) {
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+
+    .grid .item {
+        font-size: 2.5rem;
+        letter-spacing: 0.03em;
+        font-weight: bold;
+    }
+    
+    .grid .description {
+        font-size: 1.2em;
+        padding: 5px;
+    }
+    
+    .grid .links {
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 10px;
+    }
+
+    .first {
+        height: 520px;
+        background-image: url(../images/promo_mbp__ek7p477bkp6q_small.jpg);
+    }
+
+    .second {
+        height: 520px;
+        background-image: url(../images/promo_ipad__fioegapg12qi_small.jpg);
+    }
+
+    .third {
+        height: 520px;
+        background-image: url(../images/promo_airpods_pro_order__d8xv36p4uwae_small.jpg);
+    }
+
+    .fourth {
+        height: 520px;
+        background-image: url(../images/promo_apple_watch_ultra2_order__dyxqj5ia98om_small.jpg);
+    }
+
+    .fifth {
+        height: 520px;
+        background-image: url(../images/promo_macbook_air_15_midnight__3zojl1nanrme_small.jpg);
+    }
+
+    .sixth {
+        height: 520px;
+        background-image: url(../images/promo_fitness__e3pj2kkbjoom_small.jpg);
+    }
+    
+}
+
