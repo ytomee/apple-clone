@@ -1,0 +1,408 @@
+.slider-box {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .swiper {
+    width: calc(100% - 20px);
+  }
+  
+  .swiper-slide {
+    width: 1250px !important;
+    height: 667px !important;
+    filter: opacity(30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: filter 0.5s ease-in-out !important;
+  }
+  
+  .swiper-slide-active {
+    filter: opacity(100%);
+  }
+
+  .info-top {
+    opacity: 0;
+  }
+
+  .swiper-slide-active .info-bottom{
+    opacity: 1;
+    margin-bottom: 52px;
+  }
+
+  .info-bottom {
+    margin-bottom: 22px;
+    margin-left: 70px;
+    height: 44px;
+    width: 972px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .bottom-button {
+    width: 157px;
+    height: 44px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fafafa;
+    color: #1D1D1F;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .bottom-button:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  .info-bottom p {
+    pointer-events: none;
+  }
+
+  .genre {
+    margin-left: 2rem;
+    letter-spacing: 0.03rem;
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: bold;
+  }
+
+  .dot {
+    color: #fafafa;
+    font-size: 10px;
+  }
+
+  .tease {
+    color: #fafafa;
+    font-size: 18px;
+  }
+  
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    margin-right: 10px!important;
+    background: #333333!important;
+  }
+  
+  .swiper-slide--one {
+    background-image: url(/carousel-images/monarch/monarch_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide--two {
+    background-image: url(/carousel-images/napoleao/napoleao_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide--three {
+    background-image: url(/carousel-images/licoesdequimica/licoesdequimica_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide--four {
+    background-image: url(/carousel-images/slowhorses/slowhorses_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide--five {
+    background-image: url(/carousel-images/themorningshow/themorningshow_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide--six {
+    background-image: url(/carousel-images/planodefamilia/planodefamilia_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide--seven {
+    background-image: url(/carousel-images/forallmankind/forallmankind_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide--eight {
+    background-image: url(/carousel-images/mestresdoar/mestresdoar_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide--nine {
+    background-image: url(/carousel-images/invasao/invasao_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide--ten {
+    background-image: url(/carousel-images/fundacao/funcacao_2500x1406.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+
+@media (max-width:1445px) {
+
+  .slider-box {
+    height: 555px;
+  }
+  
+  .swiper-slide {
+    width: 980px !important;
+    height: 524px !important;
+  }
+
+  .swiper-slide-active .info-bottom {
+    margin-bottom: 40px;
+  }
+
+  .info-bottom {
+    margin-bottom: 10px;
+    width: 700px;
+  }
+
+  .swiper-slide--one {background-image: url(/carousel-images/monarch/monarch_1960x1102.jpg);}
+  
+  .swiper-slide--two {background-image: url(/carousel-images/napoleao/napoleao_1960x1102.jpg);}
+  
+  .swiper-slide--three {background-image: url(/carousel-images/licoesdequimica/licoesdequimica_1960x1102.jpg);}
+
+  .swiper-slide--four {background-image: url(/carousel-images/slowhorses/slowhorses_1960x1102.jpg);}
+  
+  .swiper-slide--five {background-image: url(/carousel-images/themorningshow/themorningshow_1960x1102.jpg);}
+  
+  .swiper-slide--six {background-image: url(/carousel-images/planodefamilia/planodefamilia_1960x1102.jpg);}
+
+  .swiper-slide--seven {background-image: url(/carousel-images/forallmankind/forallmankind_1960x1102.jpg);}
+  
+  .swiper-slide--eight {background-image: url(/carousel-images/mestresdoar/mestresdoar_1960x1102.jpg);}
+  
+  .swiper-slide--nine {background-image: url(/carousel-images/invasao/invasao_1960x1102.jpg);}
+
+  .swiper-slide--ten {background-image: url(/carousel-images/fundacao/funcacao_1960x1102.jpg);}
+
+}  
+
+@media (max-width:1070px) {
+  
+  .slider-box {
+    height: 400px;
+  }
+
+  .swiper-slide {
+    width: 690px !important;
+    height: 368px !important;
+  }
+
+  .swiper-slide-active .info-bottom {
+    margin-bottom: 20px;
+  }
+
+  .info-bottom {
+    margin-bottom: 0px;
+    width: 500px;
+    margin-left: 30px;
+  }
+
+  .bottom-button {
+    height: 36px;
+    width: 130px;
+    font-size: 14px;
+  }
+
+  .genre {
+    margin-left: 1rem;
+    font-size: 16px;
+  }
+
+  .dot {
+    font-size: 8px;
+  }
+
+  .tease {
+    font-size: 14px;
+  }
+
+
+  .swiper-slide--one {background-image: url(/carousel-images/monarch/monarch_1378x774.jpg);}
+  
+  .swiper-slide--two {background-image: url(/carousel-images/napoleao/napoleao_1378x774.jpg);}
+  
+  .swiper-slide--three {background-image: url(/carousel-images/licoesdequimica/licoesdequimica_1378x774.jpg);}
+
+  .swiper-slide--four {background-image: url(/carousel-images/slowhorses/slowhorses_1378x774.jpg);}
+  
+  .swiper-slide--five {background-image: url(/carousel-images/themorningshow/themorning_show1378x774.jpg);}
+  
+  .swiper-slide--six {background-image: url(/carousel-images/planodefamilia/planodefamilia_1378x774.jpg);}
+
+  .swiper-slide--seven {background-image: url(/carousel-images/forallmankind/forallmankind_1378x774.jpg);}
+  
+  .swiper-slide--eight {background-image: url(/carousel-images/mestresdoar/mestresdoar_1378x774.jpg);}
+  
+  .swiper-slide--nine {background-image: url(/carousel-images/invasao/invasao_1378x774.jpg);}
+
+  .swiper-slide--ten {background-image: url(/carousel-images/fundacao/fundacao_1378x774.jpg);}
+
+}
+
+@media (max-width:780px) {
+
+  .slider-box {
+    height: 525px;
+  }
+  
+  .swiper-slide {
+    width: 274px !important;
+    height: 495px !important;
+  }
+
+  .info-bottom {
+    width: 274px;
+    height: 100px;
+    margin-left: 0;
+    flex-direction: column-reverse;
+  }
+
+  .info-bottom p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .genre {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .tease {
+    padding-bottom: 10px;
+  }
+
+  .info-top {
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .swiper-slide--one {background-image: url(/carousel-images/monarch/monarch_548x1186.jpg);}
+
+  .swiper-slide--one .info-top {
+    background-image: url(/carousel-images/monarch/monarchlogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 48px;
+  }
+  
+  .swiper-slide--two {background-image: url(/carousel-images/napoleao/napoleao_548x1186.jpg);}
+
+  .swiper-slide--two .info-top {
+    background-image: url(/carousel-images/napoleao/napoleaologo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 33px;
+  }
+  
+  .swiper-slide--three {background-image: url(/carousel-images/licoesdequimica/licoesdequimica_548x1186.jpg);}
+
+  .swiper-slide--three .info-top {
+    background-image: url(/carousel-images/licoesdequimica/licoesdequimicalogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 45px;
+  }
+
+  .swiper-slide--four {background-image: url(/carousel-images/slowhorses/slowhorses_548x1186.jpg);}
+
+  .swiper-slide--four .info-top {
+    background-image: url(/carousel-images/slowhorses/slowhorseslogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 42px;
+  }
+  
+  .swiper-slide--five {background-image: url(/carousel-images/themorningshow/themorningshow_548x1186.jpg);}
+
+  .swiper-slide--five .info-top {
+    background-image: url(/carousel-images/themorningshow/themorningshowlogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 60px;
+  }
+  
+  .swiper-slide--six {background-image: url(/carousel-images/planodefamilia/planodefamilia_548x1186.jpg);}
+
+  .swiper-slide--six .info-top {
+    background-image: url(/carousel-images/planodefamilia/planodefamilialogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height:88px;
+  }
+
+  .swiper-slide--seven {background-image: url(/carousel-images/forallmankind/forallmankind_548x1186.jpg);}
+
+  .swiper-slide--seven .info-top {
+    background-image: url(/carousel-images/forallmankind/forallmankindlogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 60px;
+  }
+  
+  .swiper-slide--eight {background-image: url(/carousel-images/mestresdoar/mestresdoar_548x1186.jpg);}
+
+  .swiper-slide--eight .info-top {
+    background-image: url(/carousel-images/mestresdoar/mestresdoarlogo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 44px;
+  }
+  
+  .swiper-slide--nine {background-image: url(/carousel-images/invasao/invasao_548x1186.jpg);}
+
+  .swiper-slide--nine .info-top {
+    background-image: url(/carousel-images/invasao/invasaologo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 34px;
+  }
+
+  .swiper-slide--ten {background-image: url(/carousel-images/fundacao/fundacao_548x1186.jpg);}
+
+  .swiper-slide--ten .info-top {
+    background-image: url(/carousel-images/fundacao/fundacaologo.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 30px;
+  }
+
+}

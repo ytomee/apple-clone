@@ -1,0 +1,138 @@
+.first-container {
+    height: calc(75vh + 44px);
+    padding-top: calc(44px + 5vh);
+    background-image: url(../images/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg); 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.second-container {
+    height: 75vh;
+    padding-top: 5vh;
+    background-image: url(../images/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg); 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.third-container {
+    height: 75vh;
+    padding-top: 5vh;
+    background-image: url(../images/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall.jpg); 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item {
+    font-size: 3.5rem;
+    letter-spacing: -0.01em;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.6em;
+}
+
+.links {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.links span {
+    padding: 0px 20px;
+}
+
+.links span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.first-container .item {
+    color: #fafafa;
+}
+
+.first-container .description {
+    color: #fafafa;
+    padding: 5px;
+}
+
+.first-container .links {
+    padding-top: 10px;
+    color: #2997FF;
+}
+
+.second-container .item {
+    color: #000000;
+}
+
+.second-container .description {
+    color: #000000;
+    padding: 5px;
+}
+
+.second-container .links {
+    padding-top: 10px;
+    color: #0066CC;
+}
+
+.third-container .item img {
+    padding: 0px 10px;
+}
+
+.third-container .description {
+    color: #fafafa;
+    padding: 10px 0px 5px 0px;
+}
+
+.third-container .links {
+    padding-top: 10px;
+    color: #2997FF;
+}
+
+@media (max-width:1080px) {
+
+    .first-container {
+        height: calc(50vh + 44px);
+        background-image: url(../images/hero_iphone15pro__i70z9oz3hj2i_small.jpg);
+        padding-top: calc(44px + 1vh);
+    }
+
+    .second-container {
+        height: 50vh;
+        background-image: url(../images/hero_iphone15_announce__uuemlcwczn6u_small.jpg);
+        padding-top: 1vh;
+    }
+
+    .third-container {
+        height: 50vh;
+        background-image: url(../images/hero_apple_watch_series_9_order__d0fi9mb84dci_small.jpg);
+        padding-top: 1vh;
+    }
+
+    .item {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .links {
+        font-size: 1rem;
+    }
+
+    .third-container .item img {
+        width: 150px;
+    }
+    
+}

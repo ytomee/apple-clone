@@ -1,0 +1,136 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+.grid .textbox {
+    padding-top: 8vh;
+}
+
+.grid .item {
+    font-size: 2.3rem;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+}
+
+.grid .description {
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+.grid .links {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.first {
+    height: 63vh;
+    max-height: 600px;
+    background-image: url(../images/promo_mbp__ek7p477bkp6q_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.first .links {
+    color: #0066CC;
+}
+
+.second {
+    height: 63vh;
+    max-height: 600px;
+    background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.second .links {
+    color: #0066CC;
+}
+
+.third {
+    height: 63vh;
+    max-height: 600px;
+    background-image: url(../images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.third .item {
+    color: #fafafa;
+}
+
+.third .description {
+    color: #fafafa;
+}
+
+.third .links {
+    color: #2997FF;
+}
+
+.fourth {
+    height: 63vh;
+    max-height: 600px;
+    background-image: url(../images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth .links {
+    color: #0066CC;
+}
+
+.fifth {
+    height: 63vh;
+    max-height: 600px;
+    background-image: url(../images/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fifth .links {
+    color: #0066CC;
+}
+
+.sixth {
+    height: 63vh;
+    max-height: 600px;
+    background-image: url(../images/promo_fitness__e3pj2kkbjoom_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sixth .item img {
+    padding-bottom: 10px;
+}
+
+.sixth .description {
+    text-align: center;
+}
+
+.sixth .links {
+    color: #0066CC;
+}
+
+@media (max-width:1080px) {
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        padding: 0;
+    }
+
+    .first {
+        background-image: url(../images/promo_mbp__ek7p477bkp6q_small.jpg);
+    }
+
+    .fifth {
+        background-image: url(../images/promo_macbook_air_15_midnight__3zojl1nanrme_small.jpg);
+    }
+    
+}
